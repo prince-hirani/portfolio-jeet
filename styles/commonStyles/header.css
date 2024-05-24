@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 19.5rem;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  border-radius: 50px;
+  border: 1px solid var(--color-white-10);
+  padding: 1.25rem;
+}
+
+header nav ul li a {
+  color: var(--color-gray);
+  text-decoration: none;
+  padding: 1rem;
+}
