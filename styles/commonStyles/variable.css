@@ -1,0 +1,12 @@
+/* Color Variable  #0F0F0F #999999 #FFFFFF*/
+
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #0a0a0a;
+  --color-secondary-100: #1f1f1f;
+  --color-card-bg: #0f0f0f;
+  --color-gray: #999999;
+  --color-gray-100: #d9d9d9;
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-dark: #000000;
+}
