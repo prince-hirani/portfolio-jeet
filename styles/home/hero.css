@@ -1,0 +1,49 @@
+.hero-wrapper {
+  padding: 0 1.25rem;
+  border: none;
+}
+
+.hero-wrapper .hero-section {
+  padding: 0 18.25rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  background-color: var(--color-card-bg);
+  border-radius: 8px;
+}
+
+.hero-wrapper .hero-section .profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+  justify-content: center;
+}
+
+.hero-wrapper .hero-section .profile-details .profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-wrapper .hero-section .profile-details .profile-content .chip-container {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.hero-wrapper .hero-section .profile-details .profile-content .hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-wrapper .hero-section .profile-details .profile-content .hero-title p {
+  color: var(--color-gray);
+  width: 90%;
+}
+
+.hero-wrapper .hero-section .profile-photo {
+  width: 50%;
+  padding: 8rem 0 4.375rem;
+  display: flex;
+  align-items: center;
+}

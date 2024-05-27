@@ -1,0 +1,58 @@
+main .my-selected-work {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 0 19.5rem;
+}
+
+main .my-selected-work .work-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2.5rem 1.5rem;
+}
+
+main .my-selected-work .work-container .project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+main
+  .my-selected-work
+  .work-container
+  .project-card
+  .project-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main
+  .my-selected-work
+  .work-container
+  .project-card
+  .project-details-container
+  .project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main
+  .my-selected-work
+  .work-container
+  .project-card
+  .project-details-container
+  .project-details
+  .project-domian {
+  display: flex;
+  gap: 1.5rem;
+  color: var(--color-gray);
+}
+
+main .my-selected-work .our-projects-action {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}

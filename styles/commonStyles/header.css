@@ -2,11 +2,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.2rem 19.5rem;
+  padding: 1.125rem 19.5rem;
 }
 
 header nav {
   display: flex;
+  padding: 0.25rem;
 }
 
 header nav ul {
@@ -18,8 +19,11 @@ header nav ul {
   padding: 1.25rem;
 }
 
+header nav ul li {
+  padding: 0 1.125rem;
+}
+
 header nav ul li a {
   color: var(--color-gray);
   text-decoration: none;
-  padding: 1rem;
 }

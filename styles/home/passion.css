@@ -1,0 +1,44 @@
+main .passion-container {
+  padding: 0 19.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+}
+main .passion-container .our-work {
+  display: flex;
+  width: 100%;
+  gap: 1.25rem;
+}
+
+main .passion-container .our-work .card-img {
+  width: 25%;
+}
+
+main .passion-container .our-work .card-img {
+  width: 100%;
+  aspect-ratio: 0.81;
+}
+
+main .passion-container .passion-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  padding-right: 16.375rem;
+}
+
+main .passion-container .passion-details .about-me {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .passion-container .passion-details .about-me p {
+  text-align: left;
+  color: var(--color-gray);
+  width: 70%;
+}
+
+main .passion-container .passion-details .about-me .resume-download-action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+}
