@@ -1,0 +1,128 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 19.5rem 1rem;
+  background-color: var(--color-card-bg);
+  gap: 3rem;
+}
+
+footer .footer-top-content {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-logo {
+  padding-bottom: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer .footer-top-content .persnoal-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-top-content .persnoal-information .persnoal-contact-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer
+  .footer-top-content
+  .persnoal-information
+  .persnoal-contact-information
+  .address,
+footer
+  .footer-top-content
+  .persnoal-information
+  .persnoal-contact-information
+  .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer
+  .footer-top-content
+  .persnoal-information
+  .persnoal-contact-information
+  .address
+  p,
+footer
+  .footer-top-content
+  .persnoal-information
+  .persnoal-contact-information
+  .contact-info
+  .p3 {
+  color: var(--color-gray);
+}
+
+footer .footer-top-content .persnoal-information .persnoal-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+footer
+  .footer-top-content
+  .persnoal-information
+  .persnoal-navigation
+  .personal-navigation-link {
+  display: flex;
+  gap: 3.5rem;
+}
+
+footer
+  .footer-top-content
+  .persnoal-information
+  .persnoal-navigation
+  .personal-navigation-link
+  ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+}
+
+footer
+  .footer-top-content
+  .persnoal-information
+  .persnoal-navigation
+  .personal-navigation-link
+  ul
+  li
+  a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+footer .footer-top-content .persnoal-information .social-media-platform {
+  display: flex;
+  gap: 0.75rem;
+}
+
+footer .footer-bottom-content {
+  border-top: 1px solid var(--color-gray-100);
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-bottom-content .copyrights p {
+  color: var(--color-gray);
+}
+
+footer .footer-bottom-content .our-policy {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .footer-bottom-content .our-policy a {
+  text-decoration: none;
+  color: var(--color-gray);
+  display: flex;
+  gap: 0.375rem;
+}
