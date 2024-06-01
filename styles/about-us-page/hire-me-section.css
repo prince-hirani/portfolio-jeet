@@ -1,0 +1,17 @@
+main .hire-me-section {
+  padding: 0 19.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+main .hire-me-section .my-experties {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .hire-me-section .my-experties .domains {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

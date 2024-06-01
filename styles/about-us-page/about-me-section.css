@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 8.75rem;
+}
+
+main .about-me-section {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 19.5rem 0;
+  gap: 4.125rem;
+}
+
+main .about-me-section .about-me-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .about-me-section .about-me-content .collaboration-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+main .about-me-section .about-me-content .collaboration-block p,
+main .about-me-section .about-me-content .collaboration-block p a {
+  color: var(--color-gray);
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+main .about-me-section .about-me-img {
+  width: 100%;
+}
+
+main .about-me-section .about-me-img img {
+  width: 100%;
+  aspect-ratio: 2.05;
+}

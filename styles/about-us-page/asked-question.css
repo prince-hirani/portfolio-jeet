@@ -1,0 +1,28 @@
+main .most-asked-question {
+  padding: 0 19.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+main .most-asked-question .question-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+main .most-asked-question .question-lists .question-list-1,
+main .most-asked-question .question-lists .question-list-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+main .most-asked-question .question-lists .question-list-1 .question,
+main .most-asked-question .question-lists .question-list-2 .question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--color-gray);
+}
