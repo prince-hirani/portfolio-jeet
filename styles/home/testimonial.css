@@ -1,0 +1,47 @@
+main .testimonial {
+  padding: 6.25rem 19.5rem;
+  background-color: var(--color-card-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+main .testimonial .feedback-container {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+main .testimonial .feedback-container .client-testimonial-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: space-between;
+  width: 33.33%;
+}
+
+main
+  .testimonial
+  .feedback-container
+  .client-testimonial-card
+  .feedback-of-client {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+main .testimonial .feedback-container .client-testimonial-card .client-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+main
+  .testimonial
+  .feedback-container
+  .client-testimonial-card
+  .client-profile
+  .client-details
+  p {
+  color: var(--color-gray);
+}

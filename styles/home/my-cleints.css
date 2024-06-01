@@ -1,0 +1,21 @@
+main .my-clients {
+  padding: 8.75rem 39.75rem 8.75rem 19.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+main .my-clients .clients-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+main .my-clients .work-with-companies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2.875rem 8.75rem;
+}

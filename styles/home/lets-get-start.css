@@ -1,0 +1,23 @@
+main .lets-get-start {
+  padding: 8.75rem 19.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+main .lets-get-start .help-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+main .lets-get-start .help-block p {
+  width: 60%;
+}
+main .lets-get-start .help-block h3 {
+  display: flex;
+  gap: 0.5rem;
+}
+main .lets-get-start .help-block h3 span a {
+  /* text-decoration: none; */
+  color: var(--color-primary);
+}

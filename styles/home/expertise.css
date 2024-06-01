@@ -1,0 +1,59 @@
+main .expertise {
+  display: flex;
+  padding: 5.5rem 19.5rem 5.75rem;
+  justify-content: space-between;
+  background-color: var(--color-card-bg);
+}
+
+main .expertise .expertise-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+}
+
+main .expertise .expertise-container .our-service {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+main .expertise .expertise-container .our-service p {
+  color: var(--color-gray);
+  width: 80%;
+}
+
+main .expertise .my-skills {
+  display: flex;
+  flex-direction: column;
+}
+main .expertise .my-skills .skill-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-white-10);
+}
+
+main .expertise .my-skills .full-stack-development {
+  padding: 0 0 1.5rem 0;
+}
+
+main .expertise .my-skills .skill-title .skill-description p {
+  width: 90%;
+  color: var(--color-gray);
+}
+
+main .expertise .my-skills .skill-title .skill-wrapper {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+main .expertise .my-skills .skill-title .skill-wrapper .skill-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

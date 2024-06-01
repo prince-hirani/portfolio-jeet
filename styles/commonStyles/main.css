@@ -4,6 +4,8 @@
 @import url(./button.css);
 @import url(./header.css);
 @import url(./footer.css);
+@import url(../home/home-main.css);
+@import url(../about-us-page/about-us-main.css);
 
 body {
   background-color: var(--color-secondary);

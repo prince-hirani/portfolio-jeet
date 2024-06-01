@@ -1,0 +1,77 @@
+main .my-experince-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 0 19.5rem;
+}
+
+main .my-experince-block .about-experties {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .my-experince-block .about-experties .experince-details {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+
+main .my-experince-block .about-experties .experince-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1.25rem;
+}
+
+.my-experince-block .about-experties .experince-details .p3 {
+  color: var(--color-gray);
+}
+
+.my-experince-block .about-experties .experince-details .editors-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-items: flex-end;
+}
+
+.my-experince-block
+  .about-experties
+  .experince-details
+  .editors-container
+  .editor-block-1,
+.my-experince-block
+  .about-experties
+  .experince-details
+  .editors-container
+  .editor-block-2 {
+  display: flex;
+}
+
+.my-experince-block .about-experties .achivements-conatainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2rem;
+  width: 60%;
+}
+
+.my-experince-block .about-experties .achivements-conatainer .achivments {
+  padding: 0 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: flex-start;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.my-experince-block .about-experties .achivements-conatainer .milestone-1 {
+  padding: 0 0 2rem;
+}
+
+.my-experince-block
+  .about-experties
+  .achivements-conatainer
+  .achivments
+  .oragnization {
+  text-align: end;
+  color: var(--color-gray);
+}
