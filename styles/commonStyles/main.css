@@ -6,6 +6,7 @@
 @import url(./footer.css);
 @import url(../home/home-main.css);
 @import url(../about-us-page/about-us-main.css);
+@import url(../commonStyles/common-style/common-section-style.css);
 
 body {
   background-color: var(--color-secondary);

@@ -1,0 +1,39 @@
+/* INFO: This style is apply in work process section in home page & About us page */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 8.75rem;
+}
+
+main .work-process-container {
+  padding: 0 19.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+main .work-process-container .card-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+main .work-process-container .card-container .card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem;
+  gap: 3.25rem;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-white-10);
+  border-radius: 8px;
+}
+
+main .work-process-container .card-container .card .process-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main .work-process-container .card-container .card .process-details p {
+  color: var(--color-gray);
+}
